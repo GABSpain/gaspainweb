@@ -1,18 +1,18 @@
 import { SiteMenuStyles } from "./site-menu.jss";
-import { useTheme } from "react-jss";
+// import { useTheme } from "react-jss";
 
 export enum OrientationEnum {
     Horizontal,
     Vertical
 }
 
-interface ISiteMenuProps {
-    Orientation: OrientationEnum;
-}
+// interface ISiteMenuProps {
+//     Orientation: OrientationEnum;
+// }
 
-export const SiteMenu = (props: ISiteMenuProps) => {
-    const theme = useTheme();
-    const styles = SiteMenuStyles({ ...props, theme});
+export const SiteMenu = () => {
+    // const theme = useTheme();
+    const styles = SiteMenuStyles();
 
     const handleClick = (event: React.MouseEvent<HTMLElement>) => {
         event.preventDefault();

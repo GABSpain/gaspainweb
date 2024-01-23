@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { TimerStyles } from "./timer.jss";
 import { TimerItem } from "./timerItem/timerItem";
 // import AddToCalendarIcon from '/images/site/addtocalendar.svg?react';

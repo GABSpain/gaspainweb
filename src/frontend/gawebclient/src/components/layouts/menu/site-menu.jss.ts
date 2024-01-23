@@ -1,6 +1,6 @@
 import { createUseStyles } from "react-jss";
 
-export const SiteMenuStyles = createUseStyles((theme: any) => ({
+export const SiteMenuStyles = createUseStyles({
     siteMenu: {
         flex: '0 0 auto',
     },
@@ -64,4 +64,4 @@ export const SiteMenuStyles = createUseStyles((theme: any) => ({
             backgroundColor: 'red',
         }
     }
-}));
+});
