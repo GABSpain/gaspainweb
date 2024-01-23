@@ -8,17 +8,37 @@ export const TimerItemStyles = createUseStyles({
         alignItems: 'center',
         width: '120px',
         height: '120px',
-        background: '#1ba1e2',
-        borderRadius: '50%',
+        borderRadius: '8px',
+        border: '1px solid #f0f0f0',
+        "@media screen and (max-width: 1024px)": {
+            width: '80px',
+            height: '80px',
+        },
+        "@media screen and (max-width: 800px)": {
+            width: '60px',
+            height: '60px',
+        },
     },
     title: {
         fontSize: '1.3rem',
         fontWeight: '200',
         color: '#f0f0f0',
+        "@media screen and (max-width: 1024px)": {
+            fontSize: '1rem',
+        },
+        "@media screen and (max-width: 800px)": {
+            fontSize: '0.6rem',
+        },
     },
     value: {
         fontSize: '2rem',
         fontWeight: '500',
         color: '#f0f0f0',
+        "@media screen and (max-width: 1024px)": {
+            fontSize: '1.5rem',
+        },
+        "@media screen and (max-width: 800px)": {
+            fontSize: '1.2rem',
+        },
     },
 });

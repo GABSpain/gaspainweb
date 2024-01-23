@@ -4,6 +4,7 @@ export const SiteTemplateStyles = createUseStyles({
     siteContainer: {
         boxSizing: 'border-box',
         minHeight: '100vh',
+        fontSize: '17px',
     },
     siteHeader: {
         position: 'fixed',
@@ -28,7 +29,7 @@ export const SiteTemplateStyles = createUseStyles({
         boxSizing: 'border-box',
         flex: '1 1 auto',
         width: '100%',
-        paddingTop: '65px',
+        // paddingTop: '65px',
         color: '#0a0a0a',
     },
     siteFooter: {
