@@ -1,4 +1,3 @@
-import React from "react";
 import { HomeStyles } from "./home.jss";
 import { Timer } from "../timer/timer";
 // import { Fade, Hinge, JackInTheBox, Slide, Zoom } from "react-awesome-reveal";
