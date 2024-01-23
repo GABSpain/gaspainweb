@@ -11,6 +11,7 @@ export const OrganizersStyles = createUseStyles({
         gap: '24px',
 
         "& > *": {
+            boxSizing: 'border-box',
             display: 'inline-block',
             padding: '6px',
             backgroundColor: '#f0f0f0',
