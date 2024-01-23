@@ -22,7 +22,8 @@ export const HomeStyles = createUseStyles({
     },
     section: {
         boxSizing: "border-box",
-        
+        padding: "20px 0",
+
         '& > img': {
             verticalAlign: "top",
             maxWidth: "100%",
@@ -31,7 +32,12 @@ export const HomeStyles = createUseStyles({
     },
     content: {
         padding: '20px 40px 0',
+        width: '1024px',
+        margin: "0 auto",
         boxSizing: "border-box",
+        "@media screen and (max-width: 1024px)": {
+            width: '95%',
+        },
     },
     sectionBanner: {
         minHeight: "100vh",
@@ -39,38 +45,36 @@ export const HomeStyles = createUseStyles({
         backgroundSize: "cover",
     },
     sectionTitle: {
-        padding: "1px 0",
-        // lineHeight: "1",
         textAlign: "center",
         fontWeight: "600",
         fontSize: "2rem",
-        // borderTop: "1px solid #1ba1e2", // Cambia esto al color de línea que prefieras
-        // borderTop: "1px solid #293473", // Cambia esto al color de línea que prefieras
-        // borderBottom: "1px solid #1ba1e2", // Cambia esto al color de línea que prefieras
         textTransform: "uppercase",
-        color: "#293473", // Cambia esto al color de texto que prefieras
-        background: 'rgba(27, 161, 226, 0.1)', // Cambia esto al color de fondo que prefieras
-        // background: 'rgba(41, 52, 115, 0.1)', // Cambia esto al color de fondo que prefieras
 
-        "& h2": {
+        "& h1": {
+            fontSize: "2.7rem",
+            fontWeight: "400",
+            margin: "0.5rem 0",
         },
-        "& h3": {
+        "& h2": {
+            borderTop: "1px solid #293473",
+            display: 'inline-block',
             fontWeight: "400",
             fontSize: "1.8rem",
+            margin: "0.5rem 0",
         }
     },
-    sectionFull: {  
+    sectionFull: {
         position: "relative",
         padding: 0,
     },
-    sectionAbout: {  
+    sectionAbout: {
         position: "absolute",
         bottom: 0,
         padding: 0,
         width: "100%",
     },
     sectionContact: {
-        background: "#1ba1e2",
+        background: "#151515",
         color: "#f0f0f0",
     }
 });

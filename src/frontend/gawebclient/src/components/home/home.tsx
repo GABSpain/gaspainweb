@@ -35,7 +35,7 @@ export const Home = () => {
             <Slide direction="left" triggerOnce>
                 <section className={styles.section} data-section="home">
                     <header className={styles.sectionTitle}>
-                        <h2>LIVE FROM SPAIN!</h2>
+                        <h1>LIVE FROM SPAIN!</h1>
                     </header>
                     <div className={styles.content}>
                         <p>Ya estamos de nuevo con una nueva edición de nuestro evento favorito sobre la plataforma de nube pública Microsoft Azure. Ha pasado un año desde nuestra última edición que como recordarás además de los eventos por streaming, hicimos un evento híbrido (físicos en Madrid y Barcelona) con limitaciones de aforo. Nos sirvió como toma de contacto después de tanto tiempo sin vernos, pero este año queremos volver a hacer de las nuestras ahora que ya no hay restricciones sanitarias.</p>
@@ -62,17 +62,21 @@ export const Home = () => {
             <Slide direction="right" triggerOnce>
                 <section className={`${styles.section} ${styles.sectionFull}`} data-section="schedule">
                     <header className={styles.sectionTitle}>
-                        <h2>Agenda</h2>
+                        <h1>Agenda</h1>
                     </header>
-                    <img src="/images/site/schedule-soon.jpeg" alt="Global Azure Spain Skills Challenge" />
                     <div className={styles.content}>
-                        <p>Los directos del jueves serán retransmitidos por YouTube y Twitch. Las sesiones del Track 1 de Madrid serán retransmitidas en YouTube. No habrá retransmisión de Barcelona y Zaragoza, ¡así que aún estás a tiempo de registrarte y verlo en persona! Puedes pasarte también por el servidor de Discord que hemos habilitado y pasar un buen rato, charlar con los speakers y resolver alguna duda que puedas tener con Azure. Y como no, no te olvides de seguirnos en <a rel="noopener" href="https://twitter.com/globalazurees" target="_blank">Twitter</a>!</p>
+                        <img style={{ width: '100%' }} 
+                            src="/images/site/schedule-soon.jpeg" 
+                            alt="Global Azure Spain Skills Challenge" />
+                        {/* <p>Los directos del jueves serán retransmitidos por YouTube y Twitch. Las sesiones del Track 1 de Madrid serán retransmitidas en YouTube. No habrá retransmisión de Barcelona y Zaragoza, ¡así que aún estás a tiempo de registrarte y verlo en persona! Puedes pasarte también por el servidor de Discord que hemos habilitado y pasar un buen rato, charlar con los speakers y resolver alguna duda que puedas tener con Azure. Y como no, no te olvides de seguirnos en <a rel="noopener" href="https://twitter.com/globalazurees" target="_blank">Twitter</a>!</p> */}
                     </div>
                 </section>
             </Slide>
             <Slide direction="left" triggerOnce>
                 <section className={styles.section} data-section="speakers">
-                    <header className={styles.sectionTitle}><h2>Ponentes</h2></header>
+                    <header className={styles.sectionTitle}>
+                        <h1>Ponentes</h1>
+                    </header>
                     <div className={styles.content}>
                         <Speakers />
                     </div>
@@ -81,8 +85,8 @@ export const Home = () => {
             <Slide direction="right" triggerOnce>
                 <section className={styles.section} data-section="sponsorship">
                     <header className={styles.sectionTitle}>
-                        <h2>Patrocinadores</h2>
-                        <h3>Descubre quién nos apoya</h3>
+                        <h1>Patrocinadores</h1>
+                        <h2>Descubre quién nos apoya</h2>
                     </header>
                     <div className={styles.content}>
                         <p>La realización de este evento con los líderes de la comunidad de Microsoft Azure en España manteniendo la asistencia gratuita no sería posible sin la dedicación y duro trabajo de los presentadores, organizadores y contribuciones económicas de otras organizaciones para ayudar a financiar la logística del mismo.</p>
@@ -92,10 +96,10 @@ export const Home = () => {
                 </section>
             </Slide>
             <Slide direction="left" triggerOnce>
-                <section className={styles.section} data-section="contact">
+                <section className={`${styles.section} ${styles.sectionContact}`} data-section="contact">
                     <header className={styles.sectionTitle}>
-                        <h2>Contacto</h2>
-                        <h3>Tu opinión es importante</h3>
+                        <h1>Contacto</h1>
+                        <h2>Tu opinión es importante</h2>
                     </header>
                     <div className={styles.content}>
                         <p>
@@ -107,7 +111,9 @@ export const Home = () => {
             </Slide>
             <Slide direction="right" triggerOnce>
                 <section className={styles.section} data-section="code-of-conduct">
-                    <header className={styles.sectionTitle}><h2>Código de conducta</h2></header>
+                    <header className={styles.sectionTitle}>
+                        <h1>Código de conducta</h1>
+                    </header>
                     <div className={styles.content}>
                         <h3>Propósito</h3>
                         <p>Un objetivo principal de todas las conferencias y grupos de usuarios que se refieran a este Código de Conducta es ser inclusivos para la mayor cantidad de personas, con la mayor variedad de orígenes y conocimientos posibles. Como tal, nos comprometemos a ofrecer un ambiente amigable, seguro y acogedor para todos, sin importar género, orientación sexual, discapacidad, etnia, estado socio-económico, religión o creencia.</p>
@@ -149,18 +155,13 @@ export const Home = () => {
                 <footer>
                     <section className={styles.sectionContact}>
                         <header className={styles.sectionTitle}>
-                            <h2>Conecta con nosotros</h2>
-                            <h3>Síguenos en redes sociales <a href="https://twitter.com/globalazurees" target="_new">@GlobalAzureES</a></h3>
+                            <h1>Conecta con nosotros</h1>
+                            <h2>Síguenos en redes sociales <a href="https://twitter.com/globalazurees" target="_new">@GlobalAzureES</a></h2>
                         </header>
                         <div className={styles.content}>
                             <div>
                                 <Organizers />
                             </div>
-                            {/* <div>
-                                <a href="http://azure.com" target="_blank" rel="noopener">
-                                    <img src="image/Microsoft_Azure_Logo.png" alt="Global Azure" />
-                                </a>
-                            </div> */}
                             <p>
                                 Global Azure 2024 - An initiative by Microsoft Azure User Groups around the world - Todos los derechos reservados
                             </p>
