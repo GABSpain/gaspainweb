@@ -25,7 +25,7 @@ export const Home = () => {
     return (
         <section className={styles.homeContainer}>
             <section className={`${styles.section} ${styles.sectionBanner}`} data-section="banner">
-                <img src="/images/site/2024/banner-home-2024.jpg" alt="Global Azure 2024" />
+                {/* <img src="/images/site/2024/banner-home-2024.jpg" alt="Global Azure 2024" /> */}
                 <section className={styles.sectionAbout} data-section="about">
                     <Timer />
                     {/* El evento de la comunidad de Microsoft Azure en España

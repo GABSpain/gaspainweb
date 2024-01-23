@@ -35,6 +35,8 @@ export const HomeStyles = createUseStyles({
     },
     sectionBanner: {
         minHeight: "100vh",
+        background: "url('/images/site/2024/banner-home-2024.jpg') no-repeat center center",
+        backgroundSize: "cover",
     },
     sectionTitle: {
         padding: "1px 0",
