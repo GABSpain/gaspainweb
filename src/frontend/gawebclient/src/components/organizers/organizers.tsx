@@ -6,7 +6,7 @@ export const Organizers = () => {
     return (
         <>
             <div className={styles.container}>
-                <h4>The Global Azure Spain Staff</h4>
+                <h3>The Global Azure Spain Staff</h3>
                 <div className={styles.organizers}>
                     <a href="https://twitter.com/adiazcan" target="_new">@adiazcan</a>
                     <a href="https://twitter.com/adriandiaz81" target="_new">@adriandiaz81</a>

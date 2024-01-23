@@ -156,18 +156,13 @@ export const Home = () => {
                             <div>
                                 <Organizers />
                             </div>
-                            <div>
-                                <div>
-                                    <a href="http://azure.com" target="_blank" rel="noopener">
-                                        <img src="image/Microsoft_Azure_Logo.png" alt="Global Azure" />
-                                    </a>
-                                </div>
-                                <div>
-                                    Global Azure 2024 - An initiative by Microsoft Azure User Groups around the world.
-                                </div>
-                            </div>
+                            {/* <div>
+                                <a href="http://azure.com" target="_blank" rel="noopener">
+                                    <img src="image/Microsoft_Azure_Logo.png" alt="Global Azure" />
+                                </a>
+                            </div> */}
                             <p>
-                                Global Azure - Todos los derechos reservados 
+                                Global Azure 2024 - An initiative by Microsoft Azure User Groups around the world - Todos los derechos reservados
                             </p>
                         </div>
                     </section>
