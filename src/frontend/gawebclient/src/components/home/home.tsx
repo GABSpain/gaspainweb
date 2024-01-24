@@ -153,7 +153,7 @@ export const Home = () => {
             </Slide>
             <Slide direction="up" triggerOnce>
                 <footer>
-                    <section className={styles.sectionContact}>
+                    <section className={`${styles.section} ${styles.sectionContact}`}>
                         <header className={styles.sectionTitle}>
                             <h1>Conecta con nosotros</h1>
                             <h2>Síguenos en redes sociales <a href="https://twitter.com/globalazurees" target="_new">@GlobalAzureES</a></h2>
