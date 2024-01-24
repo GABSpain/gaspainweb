@@ -37,8 +37,10 @@ export const SiteMenuStyles = createUseStyles({
         listStyle: 'none',
 
         "@media screen and (max-width: 1024px)": {
-            padding: '20px 0',
             flexFlow: 'column nowrap',
+            alignItems: 'flex-end',
+            padding: '20px 0',
+            boxShadow: '0 0 10px 0 rgba(0, 0, 0, 0.5)',
             background: '#151515',
             display: 'none',
         },
