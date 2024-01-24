@@ -10,12 +10,13 @@ export const SiteTemplateStyles = createUseStyles({
         position: 'fixed',
         zIndex: 1000,
         width: '100%',
-        background: '#293473',
         height: '85px',
         boxSizing: 'border-box',
         transition: 'height 0.3s ease-in-out 0s',
     },
     siteHeaderScrolled: {
+        boxShadow: '0 0 10px 0 rgba(0, 0, 0, 0.3)',
+        background: '#293473',
     },
     siteBody: {
         boxSizing: 'border-box',
