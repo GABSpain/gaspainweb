@@ -38,6 +38,16 @@ export const Home = () => {
                         <h1>LIVE FROM SPAIN!</h1>
                     </header>
                     <div className={styles.content}>
+                        <img style={{
+                            width: '100%',
+                            height: '40vh',
+                            objectFit: 'cover',
+                            padding: '5px',
+                            boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)",
+                            border: "1px solid #ddd",
+                            borderRadius: "4px",
+                            backgroundColor: "white"
+                        }} src="/images/site/organizers2015.jpg" alt="Global Azure 2024" />
                         <p>Ya estamos de nuevo con una nueva edición de nuestro evento favorito sobre la plataforma de nube pública Microsoft Azure. Ha pasado un año desde nuestra última edición que como recordarás además de los eventos por streaming, hicimos un evento híbrido (físicos en Madrid y Barcelona) con limitaciones de aforo. Nos sirvió como toma de contacto después de tanto tiempo sin vernos, pero este año queremos volver a hacer de las nuestras ahora que ya no hay restricciones sanitarias.</p>
                         <p>Así que es para nosotros un placer anunciar que...</p>
                         <h4>¡Volvemos a Madrid, Barcelona y también en Zaragoza!</h4>
@@ -65,8 +75,8 @@ export const Home = () => {
                         <h1>Agenda</h1>
                     </header>
                     <div className={styles.content}>
-                        <img style={{ width: '100%' }} 
-                            src="/images/site/schedule-soon.jpeg" 
+                        <img style={{ width: '100%' }}
+                            src="/images/site/schedule-soon.jpeg"
                             alt="Global Azure Spain Skills Challenge" />
                         {/* <p>Los directos del jueves serán retransmitidos por YouTube y Twitch. Las sesiones del Track 1 de Madrid serán retransmitidas en YouTube. No habrá retransmisión de Barcelona y Zaragoza, ¡así que aún estás a tiempo de registrarte y verlo en persona! Puedes pasarte también por el servidor de Discord que hemos habilitado y pasar un buen rato, charlar con los speakers y resolver alguna duda que puedas tener con Azure. Y como no, no te olvides de seguirnos en <a rel="noopener" href="https://twitter.com/globalazurees" target="_blank">Twitter</a>!</p> */}
                     </div>
@@ -115,6 +125,7 @@ export const Home = () => {
                         <h1>Código de conducta</h1>
                     </header>
                     <div className={styles.content}>
+                        <img className={styles.contentImageRight} src="/images/site/codeofconduct.jpeg" alt="Código de conducta" />
                         <h3>Propósito</h3>
                         <p>Un objetivo principal de todas las conferencias y grupos de usuarios que se refieran a este Código de Conducta es ser inclusivos para la mayor cantidad de personas, con la mayor variedad de orígenes y conocimientos posibles. Como tal, nos comprometemos a ofrecer un ambiente amigable, seguro y acogedor para todos, sin importar género, orientación sexual, discapacidad, etnia, estado socio-económico, religión o creencia.</p>
                         <p>Este Código de Conducta expresa nuestras expectativas con respecto a quienes participan de nuestra comunidad, así como también las consecuencias de comportamientos inaceptables.</p>

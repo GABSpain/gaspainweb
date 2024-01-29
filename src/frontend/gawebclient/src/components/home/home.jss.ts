@@ -35,9 +35,30 @@ export const HomeStyles = createUseStyles({
         width: '1024px',
         margin: "0 auto",
         boxSizing: "border-box",
+
         "@media screen and (max-width: 1024px)": {
             width: '95%',
         },
+    },
+    contentImageLeft: {
+        float: "left",
+        margin: "5px",
+        padding: "5px",
+        width: "20%",
+        boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)",
+        border: "1px solid #ddd",
+        borderRadius: "4px",
+        backgroundColor: "white"
+    },
+    contentImageRight: {
+        float: "right",
+        margin: "5px",
+        padding: "5px",
+        width: "20%",
+        boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2)",
+        border: "1px solid #ddd",
+        borderRadius: "4px",
+        backgroundColor: "white"
     },
     sectionBanner: {
         minHeight: "100vh",
