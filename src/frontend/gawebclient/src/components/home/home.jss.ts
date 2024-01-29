@@ -5,7 +5,7 @@ export const HomeStyles = createUseStyles({
         display: "flex",
         flexDirection: "column",
         alignItems: "stretch",
-        rowGap: '40px',
+        // rowGap: '40px',
 
         '& > *': {
             verticalAlign: "top",
@@ -22,7 +22,7 @@ export const HomeStyles = createUseStyles({
     },
     section: {
         boxSizing: "border-box",
-        padding: "20px 0",
+        paddingTop: "65px",
 
         '& > img': {
             verticalAlign: "top",
@@ -86,7 +86,8 @@ export const HomeStyles = createUseStyles({
     },
     sectionFull: {
         position: "relative",
-        padding: 0,
+        paddingLeft: 0,
+        paddingRight: 0,
     },
     sectionAbout: {
         position: "absolute",

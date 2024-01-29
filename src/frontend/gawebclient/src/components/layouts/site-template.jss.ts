@@ -18,6 +18,7 @@ export const SiteTemplateStyles = createUseStyles({
     siteHeaderScrolled: {
         boxShadow: '0 0 10px 0 rgba(0, 0, 0, 0.3)',
         background: '#293473',
+        height: '60px',
     },
     siteBody: {
         boxSizing: 'border-box',
@@ -31,7 +32,6 @@ export const SiteTemplateStyles = createUseStyles({
         boxSizing: 'border-box',
         flex: '1 1 auto',
         width: '100%',
-        // paddingTop: '65px',
         color: '#0a0a0a',
         background: '#fff',
     },
