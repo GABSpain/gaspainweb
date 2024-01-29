@@ -27,6 +27,9 @@ export const HeaderStyles = createUseStyles({
         margin: '10px 20px',
         height: '64px',
     },
+    logoScrolled: {
+        height: '36px',
+    },
     headerLink: {
         color: '#61dafb',
     },

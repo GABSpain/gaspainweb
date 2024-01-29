@@ -18,11 +18,9 @@ export const SiteTemplate = (props: ISiteTemplateProps) => {
     const checkScroll = () => {
       if (window.scrollY <= 0) {
         setIsScrolled(false);
-        console.debug('scrolling up');
         return;
       } else if (!isScrolled) {
         setIsScrolled(true);
-        console.debug('scrolling down');
         return;
       }
     };

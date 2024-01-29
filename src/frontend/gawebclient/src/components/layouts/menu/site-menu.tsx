@@ -26,7 +26,7 @@ export const SiteMenu = () => {
         if (sectionElement) {
             sectionElement.scrollIntoView(
                 {
-                    behavior: 'smooth'
+                    behavior: 'smooth',
                 }
             );
         }
