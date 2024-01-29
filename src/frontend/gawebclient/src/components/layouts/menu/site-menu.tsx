@@ -76,9 +76,7 @@ export const SiteMenu = () => {
                     <MobileMenuIcon />
                 </div>
                 <ul className={styles.siteMenuList}>
-                    <li className={styles.siteMenuItem} data-section-target="home" onClick={handleClick}>
-                        Inicio
-                    </li>
+                    <li className={styles.siteMenuItem} data-section-target="banner" onClick={handleClick}>Inicio</li>
                     <li className={styles.siteMenuItem} data-section-target="schedule" onClick={handleClick}>Agenda</li>
                     {/* <li className={styles.siteMenuItem} data-section-target="speakers" onClick={handleClick}>Ponentes</li> */}
                     <li className={styles.siteMenuItem} data-section-target="sponsorship" onClick={handleClick}>Patrocinadores</li>

@@ -16,7 +16,7 @@ export const SiteTemplateStyles = createUseStyles({
     },
     siteHeaderScrolled: {
         boxShadow: '0 0 10px 0 rgba(0, 0, 0, 0.3)',
-        background: '#151515',
+        background: '#293473',
     },
     siteBody: {
         boxSizing: 'border-box',
