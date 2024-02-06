@@ -25,7 +25,15 @@ export const Home = () => {
     return (
         <section className={styles.homeContainer}>
             <section className={`${styles.section} ${styles.sectionBanner}`} data-section="banner">
-                {/* <img src="/images/site/2024/banner-home-2024.jpg" alt="Global Azure 2024" /> */}
+                <header className={styles.bannerHeader}>
+                    <div className={styles.bannerDate}>18-20 abril de 2024</div>
+                    <div className={styles.bannerHashtag}>#GlobalAzure</div>
+                </header>
+                <div className={styles.globalAzureLogoContainer}>
+                    <img src="/images/site/2024/global-azure-spain-500.png" 
+                        className={styles.globalAzureLogo}
+                        alt="Global Azure 2024" />
+                </div>
                 <section className={styles.sectionAbout} data-section="about">
                     <Timer />
                     {/* El evento de la comunidad de Microsoft Azure en España
@@ -173,9 +181,6 @@ export const Home = () => {
                             <div>
                                 <Organizers />
                             </div>
-                            <p>
-                                Global Azure 2024 - An initiative by Microsoft Azure User Groups around the world - Todos los derechos reservados
-                            </p>
                         </div>
                     </section>
                 </footer>

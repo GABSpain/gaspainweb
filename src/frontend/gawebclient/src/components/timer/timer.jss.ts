@@ -23,8 +23,8 @@ export const TimerStyles = createUseStyles({
     },
     addToCalendar: {
         fontWeight: '500',
-        color: '#293473',
-        background: '#f0f0f0',
+        color: '#151515',
+        background: '#E3C038',
         fontSize: '1rem',
         padding: '10px',
         borderRadius: '20px',
@@ -38,9 +38,10 @@ export const TimerStyles = createUseStyles({
 
         "& svg": {
             display: 'inline-block',
+            marginRight: '10px',
             verticalAlign: 'middle',
             width: '50px',
-            color: '#293473',
+            color: '#151515',
             fill: 'transparent',
             background: 'transparent',
             "@media screen and (max-width: 1024px)": {

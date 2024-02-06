@@ -14,12 +14,12 @@ export const SiteMenuStyles = createUseStyles({
     siteMenuLauncher: {
         display: 'none',
         flex: '1 1 auto',
-        height: '85px',
+        height: '55px',
         textAlign: 'right',
         padding: '15px 20px',
 
         "& svg": {
-            width: '50px'
+            width: '30px'
         },
         
         "@media screen and (max-width: 1024px)": {

@@ -5,7 +5,7 @@ export const Footer = () => {
 
     return (
         <div className={styles.container}>
-            Footer
+            Global Azure 2024 - An initiative by Microsoft Azure User Groups around the world - Todos los derechos reservados
         </div>
     );
 }
