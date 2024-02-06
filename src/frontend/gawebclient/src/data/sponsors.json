@@ -15,9 +15,19 @@
         "link": "https://www.intelequia.com/"
     },
     {
+        "title": "MyCloudDoor",
+        "logo": "images/site/2024/sponsors/my-cloud-door.png",
+        "link": "https://myclouddoor.com/"
+    },
+    {
         "title": "NTT Data",
         "logo": "images/site/2024/sponsors/nttdata.png",
         "link": "https://es.nttdata.com/"
+    },
+    {
+        "title": "Nunsys",
+        "logo": "images/site/2024/sponsors/nunsys.png",
+        "link": "http://www.nunsys.com/"
     },
     {
         "title": "Plain Concepts",
