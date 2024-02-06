@@ -14,14 +14,29 @@ export const OrganizersStyles = createUseStyles({
             boxSizing: 'border-box',
             display: 'inline-block',
             padding: '6px',
-            backgroundColor: '#f0f0f0',
-            border: '1px solid #f0f0f0',
+            backgroundColor: '#353535',
             borderRadius: '12px',
+            borderLeft: '3px solid #1ba1e2',
+            borderRight: '3px solid #1ba1e2',
             transition: 'all 0.3s ease-out 0s',
+            backgroundImage: 'linear-gradient(45deg, #1ba1e2, #1e1e1e)',
+            color: '#f0f0f0',
+
+            "&:before": {
+                content: '""',
+                display: 'inline-block',
+                width: '20px',
+                height: '25px',
+                verticalAlign: 'middle',
+                marginRight: '6px',
+                backgroundImage: 'url("/images/site/twitter-logo.svg")',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'left center',
+                backgroundSize: 'contain',
+            },
 
             "&:hover": {
-                backgroundColor: '#e0e0e0',
-                border: '1px solid #1ba1e2',
+                color: '#fff',
             }
         }
     },

@@ -15,30 +15,25 @@ export const HomeStyles = createUseStyles({
     },
     link: {
     },
-    image: {
-        verticalAlign: "top",
-        maxWidth: "100%",
-        width: "100%",
-    },
     section: {
         boxSizing: "border-box",
         paddingTop: "65px",
-
-        '& > img': {
-            verticalAlign: "top",
-            maxWidth: "100%",
-            width: "100%",
-        }
+        paddingBottom: "25px",
     },
     content: {
         padding: '20px 40px 0',
         width: '1024px',
         margin: "0 auto",
         boxSizing: "border-box",
-
+        
         "@media screen and (max-width: 1024px)": {
             width: '95%',
         },
+    },
+    contentImageFull: {
+        verticalAlign: "top",
+        maxWidth: "100%",
+        width: "100%",
     },
     contentImageLeft: {
         float: "left",
@@ -62,8 +57,39 @@ export const HomeStyles = createUseStyles({
     },
     sectionBanner: {
         minHeight: "100vh",
-        background: "url('/images/site/2024/banner-home-2024.jpg') no-repeat center center",
+        background: "url('/images/site/background.png') no-repeat center center",
         backgroundSize: "cover",
+    },
+    bannerHeader: {
+        position: "absolute",
+        top: '120px',
+        display: "flex",
+        flexFlow: "row nowrap",
+        justifyContent: "space-around",
+        alignItems: "center",
+        width: "100%",
+        padding: "20px",
+        color: "#f0f0f0",
+        gap: "20px",
+        "@media screen and (max-width: 800px)": {
+            flexFlow: "column nowrap",
+        },
+    },
+    bannerDate: {
+        fontSize: "2.5rem",
+        fontWeight: "100",
+        "@media screen and (max-width: 1024px)": {
+            fontSize: "2.5rem",
+        },
+        "@media screen and (max-width: 800px)": {
+            fontSize: "2rem",
+        },
+    },
+    bannerHashtag: {
+        backgroundColor: "#E3C038",
+        padding: "20px",
+        color: "#151515",
+        fontSize: "1.5rem",
     },
     sectionTitle: {
         textAlign: "center",
@@ -73,13 +99,13 @@ export const HomeStyles = createUseStyles({
 
         "& h1": {
             fontSize: "2.7rem",
-            fontWeight: "400",
+            fontWeight: "300",
             margin: "0.5rem 0",
         },
         "& h2": {
             borderTop: "1px solid #293473",
             display: 'inline-block',
-            fontWeight: "400",
+            fontWeight: "300",
             fontSize: "1.8rem",
             margin: "0.5rem 0",
         }
@@ -98,5 +124,16 @@ export const HomeStyles = createUseStyles({
     sectionContact: {
         background: "#151515",
         color: "#f0f0f0",
-    }
+    },
+    globalAzureLogoContainer: {
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        height: "100vh",
+        width: "100%",
+    },
+    globalAzureLogo: {
+        maxWidth: "800px",
+        width: "100%",
+    },
 });
