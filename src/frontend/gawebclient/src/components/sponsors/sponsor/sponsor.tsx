@@ -13,7 +13,7 @@ export const Sponsor = (props: ISponsor) => {
     return (
         <article className={styles.sponsorLogo}>
             <a href={props.link} target="_blank" rel="noopener">
-                <img src={props.logo} alt={props.title} />
+                <img src={props.logo} className={styles.image} alt={props.title} />
             </a>
         </article>
     );

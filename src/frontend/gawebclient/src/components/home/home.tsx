@@ -2,32 +2,24 @@ import { HomeStyles } from "./home.jss";
 import { Timer } from "../timer/timer";
 // import { Fade, Hinge, JackInTheBox, Slide, Zoom } from "react-awesome-reveal";
 import { Slide } from "react-awesome-reveal";
-import { Speakers } from "../speakers/speakers";
+// import { Speakers } from "../speakers/speakers";
 import { Sponsors } from "../sponsors/sponsors";
 import { Organizers } from "../organizers/organizers";
+import sponsorsData from "../../data/sponsors.json";
+import collaboratorsData from "../../data/collaborators.json";
+import { Schedule } from "../schedule/schedule";
+import eventInfo  from "../../data/event-info.json";
+import { SponsorsContent } from "../sponsors/sponsorsContent";
 
 export const Home = () => {
     const styles = HomeStyles();
-
-    // const handleClick = (event: React.MouseEvent<HTMLElement>) => {
-    //     event.preventDefault();
-    //     const sectionId = event.currentTarget.getAttribute('data-section-target');
-    //     const sectionElement = document.querySelector(`[data-section='${sectionId}']`);
-    //     if (sectionElement) {
-    //         sectionElement.scrollIntoView(
-    //             { 
-    //                 behavior: 'smooth'
-    //             }
-    //         );
-    //     }
-    // };
 
     return (
         <section className={styles.homeContainer}>
             <section className={`${styles.section} ${styles.sectionBanner}`} data-section="banner">
                 <header className={styles.bannerHeader}>
-                    <div className={styles.bannerDate}>18-20 abril de 2024</div>
-                    <div className={styles.bannerHashtag}>#GlobalAzure</div>
+                    <div className={styles.bannerDate}>{eventInfo.globalDates}</div>
+                    <div className={styles.bannerHashtag}>{eventInfo.hashtag}</div>
                 </header>
                 <div className={styles.globalAzureLogoContainer}>
                     <img src="/images/site/2024/global-azure-spain-500.png" 
@@ -36,8 +28,6 @@ export const Home = () => {
                 </div>
                 <section className={styles.sectionAbout} data-section="about">
                     <Timer />
-                    {/* El evento de la comunidad de Microsoft Azure en España
-                        "Countdown to Global Azure 2021" */}
                 </section>
             </section>
             <Slide direction="left" triggerOnce>
@@ -78,27 +68,24 @@ export const Home = () => {
                 </section>
             </Slide> */}
             <Slide direction="right" triggerOnce>
-                <section className={`${styles.section} ${styles.sectionFull}`} data-section="schedule">
+                <section className={`${styles.section} ${styles.sectionFull} ${styles.sectionBlue }`} data-section="schedule">
                     <header className={styles.sectionTitle}>
                         <h1>Agenda</h1>
                     </header>
                     <div className={styles.content}>
-                        <img style={{ width: '100%' }}
-                            src="/images/site/schedule-soon.jpeg"
-                            alt="Global Azure Spain Skills Challenge" />
-                        {/* <p>Los directos del jueves serán retransmitidos por YouTube y Twitch. Las sesiones del Track 1 de Madrid serán retransmitidas en YouTube. No habrá retransmisión de Barcelona y Zaragoza, ¡así que aún estás a tiempo de registrarte y verlo en persona! Puedes pasarte también por el servidor de Discord que hemos habilitado y pasar un buen rato, charlar con los speakers y resolver alguna duda que puedas tener con Azure. Y como no, no te olvides de seguirnos en <a rel="noopener" href="https://twitter.com/globalazurees" target="_blank">Twitter</a>!</p> */}
+                        <Schedule  />
                     </div>
                 </section>
             </Slide>
             <Slide direction="left" triggerOnce>
-                <section className={styles.section} data-section="speakers">
+                {/* <section className={styles.section} data-section="speakers">
                     <header className={styles.sectionTitle}>
                         <h1>Ponentes</h1>
                     </header>
                     <div className={styles.content}>
                         <Speakers />
                     </div>
-                </section>
+                </section> */}
             </Slide>
             <Slide direction="right" triggerOnce>
                 <section className={styles.section} data-section="sponsorship">
@@ -107,9 +94,9 @@ export const Home = () => {
                         <h2>Descubre quién nos apoya</h2>
                     </header>
                     <div className={styles.content}>
-                        <p>La realización de este evento con los líderes de la comunidad de Microsoft Azure en España manteniendo la asistencia gratuita no sería posible sin la dedicación y duro trabajo de los presentadores, organizadores y contribuciones económicas de otras organizaciones para ayudar a financiar la logística del mismo.</p>
-                        <p>Para 2024 <b>seguimos buscando patrocinadores</b>. Te ofrecemos <a rel="noopener" href="https://globalazure.es/resources/2024/Global%20Azure%202024%20Spain%20-%20Patrocinadores.pdf" target="_blank">dossier con toda la información para patrocinadores</a> de la edición española del Global Azure.<a rel="noopener" href="mailto:sponsors@globalazure.es" target="_blank">Contáctanos</a> si estás interesado en que aparezca tu logo en esta página, en las sesiones del evento y muchas otras ventajas. ¡No te arrepentirás!</p>
-                        <Sponsors title="Patrocinadores Locales" />
+                        <SponsorsContent />
+                        <Sponsors title="Patrocinadores Locales" sponsors={sponsorsData} />
+                        <Sponsors title="Colabora" sponsors={collaboratorsData} />
                     </div>
                 </section>
             </Slide>

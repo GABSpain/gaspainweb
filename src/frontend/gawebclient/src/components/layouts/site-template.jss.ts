@@ -4,7 +4,7 @@ export const SiteTemplateStyles = createUseStyles({
     siteContainer: {
         boxSizing: 'border-box',
         minHeight: '100vh',
-        fontSize: '17px',
+        fontSize: '19px',
         fontFamily: 'Nunito, sans-serif',
     },
     siteHeader: {
