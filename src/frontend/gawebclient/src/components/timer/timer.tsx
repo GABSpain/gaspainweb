@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
 import { TimerStyles } from "./timer.jss";
 import { TimerItem } from "./timerItem/timerItem";
-// import AddToCalendarIcon from '/images/site/addtocalendar.svg?react';
-// import AddToCalendarIcon from '../../images/site/addtocalendar.svg';
+import eventInfo  from "../../data/event-info.json";
 
 export const Timer = () => {
     const styles = TimerStyles();
@@ -14,8 +13,8 @@ export const Timer = () => {
 
     useEffect(() => {
         const interval = setInterval(() => {
-            // const eventDate = new Date('2024-01-23T00:00:00');
-            const eventDate = new Date('2024-04-18T00:00:00');
+            const eventDate = new Date(eventInfo.date);
+            // const eventDate = new Date('2024-04-18T00:00:00');
             const currentDate = new Date();
             const totalSeconds = (eventDate.getTime() - currentDate.getTime()) / 1000;
             if (totalSeconds < 0) {

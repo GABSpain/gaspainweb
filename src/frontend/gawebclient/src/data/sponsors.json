@@ -1,42 +1,92 @@
 [
-    {
-        "title": "Avanade",
-        "logo": "images/site/2024/sponsors/avanade.png",
-        "link": "https://www.avanade.com/es-es"
-    },
-    {
-        "title": "ENCAMINA",
-        "logo": "images/site/2024/sponsors/encamina.png",
-        "link": "https://www.encamina.com/"
-    },
-    {
-        "title": "Intelequia",
-        "logo": "images/site/2024/sponsors/intelequia.png",
-        "link": "https://www.intelequia.com/"
-    },
-    {
-        "title": "MyCloudDoor",
-        "logo": "images/site/2024/sponsors/my-cloud-door.png",
-        "link": "https://myclouddoor.com/"
-    },
-    {
-        "title": "NTT Data",
-        "logo": "images/site/2024/sponsors/nttdata.png",
-        "link": "https://es.nttdata.com/"
-    },
-    {
-        "title": "Nunsys",
-        "logo": "images/site/2024/sponsors/nunsys.png",
-        "link": "http://www.nunsys.com/"
-    },
-    {
-        "title": "Plain Concepts",
-        "logo": "images/site/2024/sponsors/plainconcepts.png",
-        "link": "http://www.plainconcepts.com/"
-    },
-    {
-        "title": "V Valley",
-        "logo": "images/site/2024/sponsors/v-valley.png",
-        "link": "https://www.v-valley.com/"
-    }
+  {
+    "title": "Arrow",
+    "logo": "images/site/2024/sponsors/arrow.png",
+    "link": "http://www.arrow.es/"
+  },
+  {
+    "title": "Avanade",
+    "logo": "images/site/2024/sponsors/avanade.png",
+    "link": "https://www.avanade.com/es-es"
+  },
+  {
+    "title": "BlueTab",
+    "logo": "images/site/2024/sponsors/bluetab.png",
+    "link": "https://www.bluetab.com/"
+  },
+  {
+    "title": "DXC",
+    "logo": "images/site/2024/sponsors/dxc.png",
+    "link": "http://dxc.com/"
+  },
+  {
+    "title": "ENCAMINA",
+    "logo": "images/site/2024/sponsors/encamina.png",
+    "link": "https://www.encamina.com/"
+  },
+  {
+    "title": "Ilitia",
+    "logo": "images/site/2024/sponsors/ilitia.png",
+    "link": "http://www.ilitia.com/"
+  },
+  {
+    "title": "Intelequia",
+    "logo": "images/site/2024/sponsors/intelequia.png",
+    "link": "https://www.intelequia.com/"
+  },
+  {
+    "title": "Izertis",
+    "logo": "images/site/2024/sponsors/izertis.png",
+    "link": "https://www.izertis.com/"
+  },
+  {
+    "title": "MDW",
+    "logo": "images/site/2024/sponsors/mdw.png",
+    "link": "https://www.mdwpartners.com/"
+  },
+  {
+    "title": "MyCloudDoor",
+    "logo": "images/site/2024/sponsors/my-cloud-door.png",
+    "link": "https://myclouddoor.com/"
+  },
+  {
+    "title": "NTT Data",
+    "logo": "images/site/2024/sponsors/nttdata.png",
+    "link": "https://es.nttdata.com/"
+  },
+  {
+    "title": "Nunsys",
+    "logo": "images/site/2024/sponsors/nunsys.png",
+    "link": "http://www.nunsys.com/"
+  },
+  {
+    "title": "Plain Concepts",
+    "logo": "images/site/2024/sponsors/plainconcepts.png",
+    "link": "http://www.plainconcepts.com/"
+  },
+  {
+    "title": "Prodware",
+    "logo": "images/site/2024/sponsors/prodware.png",
+    "link": "http://www.prodwaregroup.com/"
+  },
+  {
+    "title": "Sogeti",
+    "logo": "images/site/2024/sponsors/sogeti.png",
+    "link": "https://www.sogeti.com/"
+  },
+  {
+    "title": "TD Synnex",
+    "logo": "images/site/2024/sponsors/tdsynnex.png",
+    "link": "https://es.tdsynnex.com/"
+  },
+  {
+    "title": "Tokiota",
+    "logo": "images/site/2024/sponsors/tokiota.png",
+    "link": "https://tokiota.com/"
+  },
+  {
+    "title": "V Valley",
+    "logo": "images/site/2024/sponsors/v-valley.png",
+    "link": "https://www.v-valley.com/"
+  }
 ]

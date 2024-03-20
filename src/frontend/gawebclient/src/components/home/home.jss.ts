@@ -18,7 +18,7 @@ export const HomeStyles = createUseStyles({
     section: {
         boxSizing: "border-box",
         paddingTop: "65px",
-        paddingBottom: "25px",
+        paddingBottom: "55px",
     },
     content: {
         padding: '20px 40px 0',
@@ -125,6 +125,10 @@ export const HomeStyles = createUseStyles({
         background: "#151515",
         color: "#f0f0f0",
     },
+    sectionBlue: {
+        background: "#293473",
+        color: "#f0f0f0",
+    },
     globalAzureLogoContainer: {
         display: "flex",
         justifyContent: "center",
@@ -133,7 +137,7 @@ export const HomeStyles = createUseStyles({
         width: "100%",
     },
     globalAzureLogo: {
-        maxWidth: "800px",
+        maxWidth: "600px",
         width: "100%",
     },
 });
